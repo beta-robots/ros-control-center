@@ -52,6 +52,20 @@ Contributions are always welcome!
 
 ROS Control Center is released with a BSD license. For full terms and conditions, see the [LICENSE](https://github.com/pantor/ros-control-center/blob/master/LICENSE) file.
 
+## Quick start-up guide with local server
+
+* Install rosbridge: `sudo apt-get install ros-<rosdistro>-rosbridge-server`
+* Install http-server and dependencies:
+  * `curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -`
+  
+  * `sudo apt-get install -y nodejs`
+  * `sudo npm install -g http-server`
+  
+* Run rosbridge: `roslaunch rosbridge_server rosbridge_websocket.launch`
+* Run http-server: `http-server -p 9090`
+
+
+
 
 ## Authors
 
