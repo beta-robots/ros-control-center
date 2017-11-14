@@ -62,7 +62,7 @@ ROS Control Center is released with a BSD license. For full terms and conditions
   * `sudo npm install -g http-server`
   
 * Run rosbridge: `roslaunch rosbridge_server rosbridge_websocket.launch`
-* Run http-server: `http-server -p 9090`
+* Run http-server: `http-server`
 
 
 
